@@ -123,6 +123,7 @@ if __name__ == "__main__":
 
                 if op_continuar != "s":
                     break
+
         elif opcao == "2":
             for funcionario in controller.listar_funcionarios():
                 view.exibir_info(funcionario)

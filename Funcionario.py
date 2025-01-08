@@ -40,13 +40,13 @@ class Estagiario(Funcionario):
 
 class FuncionarioController:
     def __init__(self):
-        self.__funcionarios = []
+        self.funcionarios = []
 
     def adicionar_funcionario(self, funcionario):
-        self.__funcionarios.append(funcionario)
+        self.funcionarios.append(funcionario)
 
     def listar_funcionarios(self):
-        return self.__funcionarios
+        return self.funcionarios
 
 
 class FuncionarioView:
